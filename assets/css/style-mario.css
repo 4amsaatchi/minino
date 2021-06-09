@@ -1658,7 +1658,7 @@ span.lnr {
 }
 
 .img_aft_be:after {
-    content: url(/templates/protostar/images/revi-brillo.png);
+    content: url(../../images/revi-brillo.png);
     position: absolute;
     top: 0;
     left: 0;
@@ -1671,7 +1671,7 @@ span.lnr {
 }
 
 .img_aft_be:before {
-    content: url(/templates/protostar/images/revi-sombra.png);
+    content: url(../../images/revi-sombra.png);
     position: absolute;
     top: -12px;
     left: -10px;

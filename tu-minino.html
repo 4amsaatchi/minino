@@ -1,0 +1,819 @@
+
+<!DOCTYPE html>
+<html lang="es-es" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<!-- <base href="http://35.235.68.174/tu-minino" /> -->
+	<meta name="author" content="Super User" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Tu minino</title>
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="http://35.235.68.174/component/search/?Itemid=115&amp;format=opensearch" rel="search" title="Buscar Minino" type="application/opensearchdescription+xml" />
+	<link href="assets/css/slick.css" rel="stylesheet" />
+	<link href="assets/css/slick-theme.css" rel="stylesheet" />
+	<link href="assets/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet" />
+	<link href="assets/css/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" />
+	<link href="assets/css/template.css?a31ff89b79d56251fa5131d7394f118f" rel="stylesheet" />
+	<link href="assets/css/bootstrap.min.css?a31ff89b79d56251fa5131d7394f118f" rel="stylesheet" />
+	<link href="assets/css/bootstrap.css?a31ff89b79d56251fa5131d7394f118f" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+	<style>
+
+	h1, h2, h3, h4, h5, h6, .site-title {
+		font-family: 'Open Sans', sans-serif;
+	}
+  .rapid_contact .form-control { max-width: 95%; }
+  .rapid_contact .g-recaptcha { margin-bottom: 10px; max-width: 95%; }
+
+div.mod_search93 input[type="search"]{ width:auto; }
+	</style>
+	<script src="assets/js/jquery.min.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<script src="assets/js/jquery-noconflict.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<script src="assets/js/jquery-migrate.min.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<script src="assets/js/bootstrap.min.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<script src="assets/js/caption.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script src="assets/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script src="assets/js/template.js?a31ff89b79d56251fa5131d7394f118f"></script>
+	<!--[if lt IE 9]><script src="assets/js/html5.js?a31ff89b79d56251fa5131d7394f118f"></script><![endif]-->
+	<!--[if lt IE 9]><script src="assets/js/html5fallback.js?a31ff89b79d56251fa5131d7394f118f"></script><![endif]-->
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  function rp_checkCaptcha(form_id) {
+    result = true;
+    if (document.getElementById(form_id+"_hasCaptcha")) {
+      if ((grecaptcha) && (jQuery(".g-recaptcha").length == 1)) { // We only know how to deal with Google ReCaptcha, and only one of it in JS
+        if (grecaptcha.getResponse().length == 0) {
+          alert("Please complete the captcha");
+          result = false;
+        }
+      }
+    }
+    return result;
+  }
+
+	</script>
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="assets/css/style-mario.css">
+	<link rel="stylesheet" href="assets/css/style-james.css">
+	<link rel="stylesheet" href="assets/css/style-juns.css">
+</head>
+<body class="site com_content view-article no-layout no-task itemid-115">
+
+	<!-- Header -->
+	<header class="header" role="banner" id="headerminino">
+	
+	</header>
+
+	<!-- Body -->
+	<div class="body" id="top">
+		<div class="">
+			
+						<div class="row-fluid wrap">
+								<main id="content" role="main" class="span12">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					﻿<link href="assets/css/dflip.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/themify-icons.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+.videosre {
+	display:none;
+}
+.fl {
+	/*margin-left: 15%;*/
+}
+.btndes{
+	background-color: #7FC241;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 10px;
+}
+.flipbook .page-wrapper div{
+	/*width: 400px !important;
+	height: 600px !important;*/
+background-size: 500px 700px !important;
+}
+
+.flipbook{
+	/*width: 100% !important;*/
+}
+.modalimagenes {
+    z-index: 9999999999;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	margin: 0px auto;
+}
+</style>
+<script src="assets/js/dflip.js" type="text/javascript"></script>
+
+
+<script>
+    var flipBook;
+    function abrirpdf(revistapdf , titulo){
+
+    	if (revistapdf  != ""){
+        var div = jQuery(".container").width();  
+		var mode= DFLIP.PAGE_MODE.DOUBLE;
+	    if (div < 768){
+	      mode= DFLIP.PAGE_MODE.SINGLE;            
+	    } 		     
+
+	    // var pdf = "http://35.235.68.174/" +revistapdf;
+	    var pdf = revistapdf;
+
+
+	    var options = {
+	        webgl:false,
+	        height: 800,
+	        duration: 800,
+	        backgroundColor: "#777",
+	        direction: DFLIP.DIRECTION.LTR,
+	         pageMode: mode,
+	        autoEnableOutline:false,  
+	         scrollWheel: false,
+		};
+		jQuery("#flipbookContainer").html("");
+		jQuery("#ModalRevistasLabel").html("");
+
+		jQuery("#ModalRevistasLabel").html(titulo);
+		
+        flipBook = jQuery("#flipbookContainer").flipBook(pdf, options);
+        jQuery('#ModalRevistas').modal('show');
+	    } else{
+	    	alert("No se ha cargado el pdf");
+
+	    }
+    }
+</script>
+<style type="text/css">
+#flipbookContainer{
+  width: 100%;
+}
+
+.modal-dialog {
+max-width: 100%;
+}
+
+
+
+div.modal.fade.in {
+	opacity: 1;
+}
+</style>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="ModalRevistas" tabindex="-1" role="dialog" aria-labelledby="ModalRevistasLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalRevistasLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        	
+		<div id="flipbookContainer">
+		</div>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- -->
+
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="es-ES" />
+
+	<!-- TITULO -->
+		<!-- FIN TITULO -->
+
+		
+		
+	<!-- IMAGEN -->
+	<div class="cont_banner maringTop">
+				<div class="pull-left item-image"> <img
+		 src="images/headers/HEADER-tu-minino.jpg" alt="" itemprop="image"/> </div>
+		<!-- FIN IMAGEN -->
+		<!-- TITULO -->
+		<div class="cont_banner_tt">
+			<h1 itemprop="headline">
+				Tu minino			</h1>
+												<img src="images/curva.svg" alt="" class="img_curva">
+		</div>
+	</div>
+	<!-- FIN TITULO -->
+
+					
+		
+	
+	
+		
+			
+		
+		
+	
+			    <div class="">
+	      <div aria-label="breadcrumbs" role="navigation">
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+					<li>
+				Está aquí: &#160;
+			</li>
+		
+						<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/" class="pathway"><span itemprop="name">Inicio</span></a>
+					
+											<span class="divider">
+							<img src="images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+					<span itemprop="name">
+						Tu minino					</span>
+					<meta itemprop="position" content="2">
+				</li>
+				</ul>
+</div>
+	    </div>  
+	
+	<!-- CONTENIDO -->
+	<div itemprop="articleBody" class="cont_general">
+		 	</div>
+	<!-- FIN CONTENIDO -->
+
+	
+								</div>
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/jquery/3.4.1/jquery.min.js"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>322</b><br />
+/js/slick.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>323</b><br />
+/js/slick-theme.css"/> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+
+<!-- <script type="text/javascript" src="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>344</b><br />
+/js/slick.js"></script> -->
+
+<!-- <script type="text/javascript" src="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>346</b><br />
+/js/jquery.fancybox.pack.js?v=2.1.5"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>347</b><br />
+/js/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>348</b><br />
+/js/helpers/jquery.fancybox-thumbs.css?v=1.0.7" /> -->
+<!-- <script type="text/javascript" src="/templates/<br />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>349</b><br />
+/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> -->
+
+
+<!-- REVISTAS -->
+
+<div class="tm_cont_revi_all">
+
+<div class="tm_revi_tt">
+	<h2 class="revi_tt">Revista</h2>
+	<div class="revi_shot_line"></div>
+	<h2>¡Suscríbete a Nuestra <span>	Revista</span> Digital !</h2>
+	<div class="tm_revi_cont_btn">
+		<img src="images/ico-revistas.svg" alt="">
+		<div class="btn_general tm_revi_btn_sus" onclick="suscribirseAbrir()">suscribir</div>
+	</div>
+</div>
+
+<div class="tm_revi_cont__all">
+    <div class="testimonial-carousel">
+        <!-- Circled Left 2 icon by Icons8 -->
+        <div class="icon-container">
+            <span class="lnr lnr-arrow-left-circle"></span>
+        </div>
+        <div id="ancho_d" class="cont_all_items">
+            <div class="testimonial-items">
+			<div class="tm_revi_cont_img">
+	
+				<div class="testimonial-item first">
+				<a onclick="abrirpdf('images/revistas/2019/39.pdf','39')" class="cont_revista  39 all">
+					<div class="tm_revi_cont_img">
+						<div class="img_aft_be">
+							<img src="images/revistas/2019/39-edicion.png" class="">
+						</div>
+					</div>
+				</a>
+			</div>
+	
+				<div class="testimonial-item first">
+				<a onclick="abrirpdf('images/revistas/2019/40.pdf','40')" class="cont_revista  40 all">
+					<div class="tm_revi_cont_img">
+						<div class="img_aft_be">
+							<img src="images/revistas/2019/40-edicion.png" class="">
+						</div>
+					</div>
+				</a>
+			</div>
+	
+				<div class="testimonial-item first">
+				<a onclick="abrirpdf('images/revistas/2019/41.pdf','41')" class="cont_revista  41 all">
+					<div class="tm_revi_cont_img">
+						<div class="img_aft_be">
+							<img src="images/revistas/2019/41-edicion.png" class="">
+						</div>
+					</div>
+				</a>
+			</div>
+	
+				<div class="testimonial-item first">
+				<a onclick="abrirpdf('images/revistas/2015/2.pdf','2')" class="cont_revista  2 all">
+					<div class="tm_revi_cont_img">
+						<div class="img_aft_be">
+							<img src="images/revistas/2015/2-edicion.png" class="">
+						</div>
+					</div>
+				</a>
+			</div>
+	
+		
+			</div>
+                
+        </div>
+        </div>
+        <!-- End .testimonial-items -->
+        <div class="icon-container">
+            <span class="lnr lnr-arrow-right-circle"></span>
+        </div>
+    </div>
+	<div class="cont_archi_ant">
+		<div class="line_archi_ant"></div>
+		<a href="revistas" class="btn_general tm_revi_btnea">Ediciones anteriores</a>
+	</div>
+</div>
+</div>
+<!-- FIN REVISTAS -->
+
+<!-- JUEGOS -->
+<div class="tm_game_tt" style="display: none;">
+	<p>PROMOCIONES</p>
+</div>
+
+<div class="tm_cont_game" style="display: none;">
+<div id="slider" class="slider">
+	  <div class="wrapper">
+	    <div id="slides" class="slides">
+	
+	<div class="slide">
+	<div class="game_entra">
+
+		<div class="tm_game_cont_img">
+			<a href="/tu-minino/2-uncategorised/66-promocion-1">
+				<img src="images/Imagenes/img-juegos-prueba.png" class="">
+			</a>
+		</div>
+		<div class="tm_game_entr_tt">
+			<a href="/tu-minino/2-uncategorised/66-promocion-1">
+				<h2>Promoción 1</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non enim consequatur, totam facere, eveniet natus nostrum hic eum rem veniam nam ad necessitatibus? Praesentium consectetur harum natus, repudiandae deleniti illum accusamus perferendis.</p>
+		</div>
+	</div>
+	</div>
+		  
+	
+	<div class="slide">
+	<div class="game_entra">
+
+		<div class="tm_game_cont_img">
+			<a href="/tu-minino/2-uncategorised/67-promocion-2">
+				<img src="images/Imagenes/img-juegos-prueba.png" class="">
+			</a>
+		</div>
+		<div class="tm_game_entr_tt">
+			<a href="/tu-minino/2-uncategorised/67-promocion-2">
+				<h2>Promoción 2</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non enim consequatur, totam facere, eveniet natus nostrum hic eum rem veniam nam ad necessitatibus? Praesentium consectetur harum natus, repudiandae deleniti illum accusamus perferendis.</p>
+		</div>
+	</div>
+	</div>
+		  
+		    </div>
+	  </div>
+	  <a id="prev" class="control prev"></a>
+	  <a id="next" class="control next"></a>
+	</div>
+</div>
+
+<!-- FIN JUEGOS -->
+
+<!-- EVENTOS -->
+
+<div class="tm_cont_event">
+<div class="tm_event_tt">
+	<h2>Eventos</h2>
+</div>
+	
+		<div class="tm_event_cont">
+
+		<div class="tm_event_cont_img">
+			<a href="/tu-minino/2-uncategorised/65-catlendario">
+				<img src="images/Imagenes/catlendario-img-principal2.jpg" class="">
+			</a>
+		</div>
+		<div class="tm_event_entr_tt">
+			<a href="/tu-minino/2-uncategorised/65-catlendario">
+				<h2>Catlendario</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>La espera llegó a su fin Participa y todo México conocerá a tu minino</p>
+			<a href="/tu-minino/2-uncategorised/65-catlendario" class="btn_general2 tm_event_btn2_vermas">ver más</a>
+		</div>
+	</div>
+	
+		<a href="eventos" class="btn_general tm_event_btn_vermas">ver más</a>
+</div>
+<!-- FIN EVENTOS -->
+
+<!-- BLOG -->
+<div class="tm_blg_tt">
+	<h2>Blog</h2>
+	<div class="tm_clg_cont_subtt">
+		<p>Ultimas Entradas</p>
+		<div class="line_lado"></div>
+	</div>
+</div>
+
+<div class="tm_cont_blog">
+	
+		<div class=" blg_entra1">
+
+		<div class="tm_blg_cont_img">
+			<a href="/tu-minino/2-uncategorised/70-los-mininos-y-el-otono">
+				<img src="images/blog/los-minino-y-el-otoo.jpg" class="">
+			</a>
+		</div>
+		<div class="btn_general2 tm_blg_btn_mas">+</div>
+		<div class="tm_blg_entr_tt">
+			<a href="/tu-minino/2-uncategorised/70-los-mininos-y-el-otono">
+				<h2>Los mininos y el otoño</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>Cuidamos a nuestros mininos todo el año, eso es indudable, pero durante el otoño estos pequeños necesitan atención especial ya que es la temporada ...</p>
+		</div>
+	</div>
+	
+		<div class=" blg_entra2">
+
+		<div class="tm_blg_cont_img">
+			<a href="/tu-minino/2-uncategorised/69-como-ayudar-a-un-minino-feral">
+				<img src="images/blog/Cmo-ayudar-a-un-minino-feral.jpg" class="">
+			</a>
+		</div>
+		<div class="btn_general2 tm_blg_btn_mas">+</div>
+		<div class="tm_blg_entr_tt">
+			<a href="/tu-minino/2-uncategorised/69-como-ayudar-a-un-minino-feral">
+				<h2>¿Cómo ayudar a un minino feral?</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>Aunque vayamos por la vida queriendo adoptar a todos los michis que se cruzan en nuestro camino</p>
+		</div>
+	</div>
+	
+		<div class=" blg_entra3">
+
+		<div class="tm_blg_cont_img">
+			<a href="/tu-minino/2-uncategorised/68-mininos-bebes-claves-para-una-buena-alimentacion">
+				<img src="images/blog/Claves-para-una-buena-alimentacin.jpg" class="">
+			</a>
+		</div>
+		<div class="btn_general2 tm_blg_btn_mas">+</div>
+		<div class="tm_blg_entr_tt">
+			<a href="/tu-minino/2-uncategorised/68-mininos-bebes-claves-para-una-buena-alimentacion">
+				<h2>Mininos bebés: Claves para una buena alimentación</h2>
+			</a>
+			<div class="shot_line"></div>
+			<p>La primera pregunta al adoptar a un minino bebé siempre es: ¿Qué comerán? </p>
+		</div>
+	</div>
+	
+		<a href="blog" class="btn_general tm_blg_btn_vermas">ver más</a>
+</div>
+<!-- FIN BLOG -->
+
+<!-- GALERIA -->
+<div class="tm_game_tt">
+	<p>GALERIA DE EVENTOS</p>
+</div>
+<div class="tm_game_tt mg-galeria">
+		<script type="text/javascript">// <![CDATA[
+		// var $jq = jQuery.noConflict();
+			$(document).ready(function(){
+
+			      	$('.imgsliderfancy').slick({
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						dots: false,
+					  	arrows: true,
+					  	autoplay: true,
+					  	autoplaySpeed: 5000,
+					  	// infinite: false,
+					  	responsive: [
+				          {
+				            breakpoint: 768,
+				            settings: {
+				              slidesToShow: 3
+				            }
+				          },
+				          {
+				            breakpoint: 480,
+				            settings: {
+				              slidesToShow: 2
+				            }
+				          }
+				        ]
+					});
+			    });
+			    $(function(){
+					$('.fancybox-thumbs').fancybox({
+						openEffect : 'elastic',
+						closeEffect	: 'elastic',
+				    	openSpeed:'normal', //ms, slow, normal, fast (default 250ms)
+				    	closeSpeed:'normal',
+						helpers : {
+							thumbs : {
+								width  : 50,
+								height : 50
+							},
+							overlay : {
+				    			closeClick : false  // if true, se cierra al hacer click fuera de la imagen
+		       			    }
+						}
+					});
+				});
+				function descargarimg(fileUrl){
+					document.location = fileUrl;
+				}
+			// ]]>
+		</script>
+		<style type="text/css">
+			.slick-initialized .slick-slide{
+				position: relative;
+			}
+			.fancybox-thumbs:hover .hoverproy {
+			    width: 100%;
+			    height: 100%;
+			    position: absolute;
+			    top: 0;
+			    background-color: rgba(0, 0, 0, 0.5);
+			}
+			.slick-track{
+				width: 100%;
+			}
+			.slick-slide{
+				margin: 5px;
+			}
+			.slick-prev:before, .slick-next:before{
+				color: #000!important;
+			}
+			.slick-slide img {
+			    width: 100%;
+			}
+			#fancybox-thumbs>ul>li{
+			    display: none;
+			  }
+			  .slick-cloned {
+			    /*display: none!important;*/
+			}
+		</style>
+		      <div class="">
+			<div class="imgsliderfancy" id="imgsliderfancy">
+								            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/1.jpg"><img src="images/imagenesGaleria/1.jpg" alt=""/><div class="hoverproy"></div></a>
+				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/2.jpg"><img src="images/imagenesGaleria/2.jpg" alt=""/><div class="hoverproy"></div></a>
+				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/3.jpg"><img src="images/imagenesGaleria/3.jpg" alt=""/><div class="hoverproy"></div></a>
+				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/4.jpg"><img src="images/imagenesGaleria/4.jpg" alt=""/><div class="hoverproy"></div></a>
+				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/5.jpg"><img src="images/imagenesGaleria/5.jpg" alt=""/><div class="hoverproy"></div></a>
+				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/6.jpg"><img src="images/imagenesGaleria/6.jpg" alt=""/><div class="hoverproy"></div></a>
+				            			</div>
+			</div>
+</div>
+
+<!-- FIN GALERIA -->
+
+</div>
+
+<div id="suscribir_r" class="sus_cont_all">
+	<div class="sus_bg_modal" onclick="suscribirseCerar()">
+		<div class="sus_cerrar"></div>
+	</div>
+	<div class="sus_cont_info_all">
+		<div class="sus_cont_info">
+			<div class="sus_cont_img">
+				<img src="images/Imagenes/revista-abierta.png">
+			</div>
+			<div class="sus_cont_form">
+				<h2>Completa el formulario para suscribirte a<span> nuestra revista</span></h2>
+				
+								<div class="sus_cont_formulario">
+					<div class="sus_sont_form_all">
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D36000000p9u5">
+<input type=hidden name="retURL" value="http://104.154.174.234/minino/tu-minino">
+<input type=hidden id="lead_source" name="lead_source" value="WebSolomininos">
+<input type=hidden id="country_code" name="country_code" value="MX">
+<input type=hidden id="00N3600000OlRDO" name="00N3600000OlRDO" value="MAS">
+<input type=hidden  id="00N3600000RBPAZ" name="00N3600000RBPAZ" value="MIninos">
+<input type=hidden  id="00N3600000HVXSn" name="00N3600000HVXSn" value="Boletin">
+
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
+<!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
+<!--  modo de depuración.                                                     -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="aldo.gonzalez@surec.com.mx">                                     -->
+<!--  ----------------------------------------------------------------------  -->
+<div class="sus_input_flex">
+<label for="first_name"></label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="Nombre"/>
+
+<label for="last_name"></label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Apellidos"/>
+</div>
+
+<div class="sus_input_flex">
+<label for="mobile"></label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Celular"/>
+
+<label for="email"></label><input  id="email" maxlength="80" name="email" size="20" type="text" placeholder="Email"/>
+</div>
+
+<label for="state_code"></label><select  id="state_code" name="state_code"><option value="">Estado/Provincia</option><option value="AG">Aguascalientes</option>
+<option value="BC">Baja California</option>
+<option value="BS">Baja California Sur</option>
+<option value="CM">Campeche</option>
+<option value="DF">CDMX</option>
+<option value="CS">Chiapas</option>
+<option value="CH">Chihuahua</option>
+<option value="CO">Coahuila</option>
+<option value="CL">Colima</option>
+<option value="DG">Durango</option>
+<option value="ME">Estado de México</option>
+<option value="GT">Guanajuato</option>
+<option value="GR">Guerrero</option>
+<option value="HG">Hidalgo</option>
+<option value="JA">Jalisco</option>
+<option value="MI">Michoacán</option>
+<option value="MO">Morelos</option>
+<option value="NA">Nayarit</option>
+<option value="NL">Nuevo León</option>
+<option value="OA">Oaxaca</option>
+<option value="PB">Puebla</option>
+<option value="QE">Querétaro</option>
+<option value="QR">Quintana Roo</option>
+<option value="SL">San Luis Potosí</option>
+<option value="SI">Sinaloa</option>
+<option value="SO">Sonora</option>
+<option value="TB">Tabasco</option>
+<option value="TM">Tamaulipas</option>
+<option value="TL">Tlaxcala</option>
+<option value="VE">Veracruz</option>
+<option value="YU">Yucatán</option>
+<option value="ZA">Zacatecas</option>
+</select><br>
+
+<select  id="00N3600000RBPAc" name="00N3600000RBPAc" title="Medio preferido de contacto"><option value="">Medio preferido de contacto</option><option value="RedesSociales">Redes Sociales</option>
+<option value="Telefono">Teléfono</option>
+<option value="CorreoElectronico">Correo Electrónico</option>
+</select><br>
+
+<select  id="00N3600000HVACf" name="00N3600000HVACf" title="Tipo de prospecto"><option value="">Tipo de prospecto</option><option value="Comercializador">Comercializador/Distribuidor</option>
+<option value="Criador">Criador</option>
+<option value="Dueño">Dueño</option>
+<option value="Estudiante">Estudiante</option>
+<option value="Exportación">Exportación</option>
+<option value="Veterinario">Veterinario</option>
+</select><br>
+
+<p>¿Deseas inscribirte a nuestro boletin para recibir promociones e informacion relevante a tus necesidades?:</p><input  id="00N3600000RE2Bj" name="00N3600000RE2Bj" type="checkbox" value="1" /><br>
+
+<textarea  id="00N3600000HVTwW" name="00N3600000HVTwW" rows="3" type="text" wrap="soft" placeholder="Comentarios"></textarea><br>
+
+<div class="btn_general sus_sty_input">
+<input type="submit" name="submit" class="del_sty_input">
+</div>
+
+</form>
+
+</div>				</div>	
+							</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	var suscribirR = document.getElementById('suscribir_r');
+	var bodyhidden = document.getElementsByTagName("body")[0];
+	function suscribirseAbrir(){
+		suscribirR.style.display='block';
+		bodyhidden.style.overflow='hidden';
+	}
+	function suscribirseCerar(){
+		suscribirR.style.display='none';
+		bodyhidden.style.overflow='visible';
+	}
+</script>
+					<!-- forulario en pagina contacto -->
+					<div class="form-conctact-pag">
+						<div class="row">
+							<div class="col-md-7">
+									
+							</div>
+							<div class="col-md-5">
+								<div class="contactenosfoot">
+									<div class="titcontactf">
+										
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- fin formulario en pagina contacto -->
+					<!-- pagina login -->
+					<div class="boxlogin" style="display: none;">
+						<!-- <h3>Ingresar</h3> -->
+													<p class="hm_cont_txt_contact">Por favor ingresa tus datos para iniciar sesión.</p>
+							
+												<a href="/component/users/?view=registration&amp;Itemid=101">
+															Registrate ahora
+													</a>	
+					</div>
+					<!-- fin pagina login -->
+					<div class="clearfix"></div>
+					<!-- <div aria-label="breadcrumbs" role="navigation">
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+					<li>
+				Está aquí: &#160;
+			</li>
+		
+						<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/" class="pathway"><span itemprop="name">Inicio</span></a>
+					
+											<span class="divider">
+							<img src="images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+					<span itemprop="name">
+						Tu minino					</span>
+					<meta itemprop="position" content="2">
+				</li>
+				</ul>
+</div>
+ -->
+					<!-- End Content -->
+				</main>
+							</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo" id="footerminino">
+		
+	</footer>
+	
+	
+	<script src="assets/js/scrips-minino.js"></script>
+	<script src="assets/js/funcionesjames.js"></script>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+    setTimeout(function(){
+      jQuery('#linktuminino').addClass('current active');
+    }, 1000);
+  });
+
+  </script>
+</body>
+</html>
