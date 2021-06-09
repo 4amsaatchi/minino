@@ -1,0 +1,138 @@
+#resultado {
+    text-align: center;
+    background: #FFF;
+    /* height: 30px; */
+    width: 172px;
+    margin: 0px auto;
+    /* position: absolute; */
+    margin-top: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+}
+  div.colorMinino-Yum{
+    background : #00AFE3 !important;
+  }
+  .w80{
+    width: 80%;
+  }
+  
+  h3.colorMinino-Yum {
+    color: #00AFE3 !important;
+  }
+
+  div.colorMinino-Do{
+    background : #CE3439 !important;
+  }
+  
+  h3.colorMinino-Do {
+    color: #CE3439 !important;
+  }
+
+  div.colorMinino-Baby-Plus{
+    background : #FFD388 !important;
+  }
+  
+  h3.colorMinino-Baby-Plus {
+    color: #FFD388 !important;
+  }
+
+  div.colorMinino-Plus{
+    background : #91A1AB !important;
+  }
+  
+  h3.colorMinino-Baby {
+    color: #f77dbe !important;
+  }
+
+  div.colorMinino-Baby{
+    background : #f77dbe !important;
+  }
+  
+  h3.colorMinino-Plus {
+    color: #91A1AB !important;
+  }
+  
+  .range-container {
+      width: 100% !important;
+      margin-top: 22px !important;
+  }
+  .calculadora {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  p.pcombo {
+      color: #000;
+      font-size: 16px;
+  }
+
+  .label-container-dire {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .label-container-dire, .label-container-peso, .label-container-actividad {
+      margin-top: 0px;
+  }
+
+  .label-container-actividad div {
+    background: transparent;
+      position: relative;
+      float: left;
+      width: 22.25px;    
+      margin-top: 0px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .label-container-peso, .label-container-actividad {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .rowcal {
+      display: block;
+      margin: 0 0 34px 0;
+  }
+
+  .label-container-peso div {
+    background: transparent;
+      position: relative;
+      padding: 0px;
+      float: left;
+      width: 22.25px;
+      margin-top: 0px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  .label-container-dire div:before {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    left: 0;
+    content: "";
+    margin: 0 auto;
+    width: 5px;
+    height: 5px;
+    background: #ff930e;
+    border-radius: 50%;
+  }
+
+  input[type="range"] {
+      display: block;
+      width: 100%;
+  }
+
+  p#resultado:after {
+    content: url(../../images/Imagenes/resultado-ico.svg);
+    position: relative;
+    top: 4px;
+    display: inline-block;
+  }

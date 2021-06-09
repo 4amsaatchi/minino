@@ -1,7 +1,7 @@
 
   
   jQuery(document).ready(function() {
-    jQuery("#haederminino").load("header.html"); 
+    jQuery("#headerminino").load("header.html"); 
     jQuery("#footerminino").load("footer.html"); 
     
     
