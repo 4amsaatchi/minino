@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Minino_font';
+    src:url('Minino_font-Regular.svg#Minino_font-Regular') format('svg'),
+        url('Minino_font-Regular.woff2') format('woff2'),
+        url('Minino_font-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dk_uncle_edwardregular';
+    src: url('dk_uncle_edward-webfont.woff2') format('woff2'),
+         url('dk_uncle_edward-webfont.woff') format('woff'),
+         url('dk_uncle_edward-webfont.svg#dk_uncle_edwardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

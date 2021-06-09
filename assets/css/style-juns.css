@@ -1,0 +1,144 @@
+.textquienesomoshome {
+	padding: 25px 25px 30px 30px;
+    position: absolute;
+    width: 75%;
+    margin: 0px auto;    
+    top: 5%;    
+    left: 26%;
+    background: #FFF;
+    color: #A5A5A5;    
+}
+
+.textquienesomoshome a {
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 7px 68px;
+    background: #FF930E;
+    position: absolute;
+    margin: 0px auto;
+    border: 1px solid;
+    border-radius: 6rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.4s;
+    left: 33%;
+    bottom: -5%;
+}
+
+.productoshome {
+	margin-top: 20px;
+}
+.txtproductoshome {
+	background: #ff930e;
+    padding: 57px 25px;
+    width: 31%;
+    margin-bottom: 10%;
+}
+.rowquienesomoshome {
+	margin-top: 50px;
+}
+
+.txtproductoshome h4 span{
+	color: #fff;
+    line-height: 1;
+    font-size: 1.5625rem;
+}
+
+.txtproductoshome span {
+    font-size: 2.8125rem;
+    font-weight: 700;
+        line-height: 1;
+ }
+
+ .containerrecetashome {
+ 	background: #008DA1;
+ }
+
+ .rowdondeencontranoshome{
+ 	margin-top: -50px;
+ }
+
+ .containerubicacioneshome{ 	
+ 	padding-left: 50px;
+ }
+
+ .nopad{
+ 	padding: 0px !important;
+ }
+
+ .rowrecetashome {
+ 	margin-bottom: 50px;
+ 	z-index: 1;
+ }
+ .rowpremioshome {
+    margin-bottom: -50px;
+    z-index: 1;
+ }
+ 
+ .fondoblanco {
+ 	background: #FFF;
+ }
+
+.conttxtrehome{
+	padding: 30px;	
+}
+.containerproductshome .content_inhet {    
+    justify-content: space-between;
+ }
+.containercathome{
+	margin-top: 50px;
+}
+
+/* Estilos banners  */
+
+/* slider 1 home*/
+  .img_curva {
+    display: block;
+    
+}
+
+.slideconcurva .orbit-caption {
+    position: absolute;        
+    display: block;
+    top: 20%;
+    left: 55%;
+    width: 22%;
+}
+
+.slideconcurva .orbit-caption span{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+}
+
+.color-negro {
+  color: #000 !important;
+}
+
+.vermasslide {
+  margin-top: 30px;
+}
+.vermasslide a {
+  background: #FFF;
+}
+ /* slider 2 home */
+.tuminino .orbit-caption {
+    position: absolute;        
+    display: block;
+     top: 20%;
+    left: 22%;
+    width: 22%;
+}
+
+.color-blanco {
+  color: #FFF !important;
+}
+
+.logactivo{
+    border: none !important;
+}
+
+/**/
