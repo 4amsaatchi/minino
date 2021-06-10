@@ -5195,6 +5195,7 @@ ul.breadcrumb li a span:hover {
     font-weight: 700;
 }
 
+
 @media screen and (max-width: 48em){
     .cont_catl_all {
         flex-direction: column;

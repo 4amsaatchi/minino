@@ -4,12 +4,12 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8" />
-	<!-- <base href="http://35.235.68.174/tu-minino" /> -->
+	<!-- <base href="http://35.235.68.174//revistas" /> -->
 	<meta name="author" content="Super User" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>Tu minino</title>
+	<title>Revistas</title>
 	<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-	<link href="http://35.235.68.174/component/search/?Itemid=115&amp;format=opensearch" rel="search" title="Buscar Minino" type="application/opensearchdescription+xml" />
+	<link href="http://35.235.68.174/component/search/?Itemid=117&amp;format=opensearch" rel="search" title="Buscar Minino" type="application/opensearchdescription+xml" />
 	<link href="assets/css/slick.css" rel="stylesheet" />
 	<link href="assets/css/slick-theme.css" rel="stylesheet" />
 	<link href="assets/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet" />
@@ -66,11 +66,11 @@ jQuery(window).on('load',  function() {
 	<link rel="stylesheet" href="assets/css/style-james.css">
 	<link rel="stylesheet" href="assets/css/style-juns.css">
 </head>
-<body class="site com_content view-article no-layout no-task itemid-115">
+<body class="site com_content view-article no-layout no-task itemid-117">
 
 	<!-- Header -->
 	<header class="header" role="banner" id="headerminino">
-	
+		
 	</header>
 
 	<!-- Body -->
@@ -84,7 +84,8 @@ jQuery(window).on('load',  function() {
 					<div id="system-message-container">
 	</div>
 
-					﻿<link href="assets/css/dflip.css" rel="stylesheet" type="text/css">
+					<script src="assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="assets/css/dflip.css" rel="stylesheet" type="text/css">
   <link href="assets/css/themify-icons.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
@@ -116,6 +117,7 @@ background-size: 500px 700px !important;
 	margin: 0px auto;
 }
 </style>
+
 <script src="assets/js/dflip.js" type="text/javascript"></script>
 
 
@@ -130,8 +132,7 @@ background-size: 500px 700px !important;
 	      mode= DFLIP.PAGE_MODE.SINGLE;            
 	    } 		     
 
-	    // var pdf = "http://35.235.68.174/" +revistapdf;
-	    var pdf = revistapdf;
+	    var pdf = "" +revistapdf;
 
 
 	    var options = {
@@ -144,13 +145,13 @@ background-size: 500px 700px !important;
 	        autoEnableOutline:false,  
 	         scrollWheel: false,
 		};
-		jQuery("#flipbookContainer").html("");
-		jQuery("#ModalRevistasLabel").html("");
+		$("#flipbookContainer").html("");
+		$("#ModalRevistasLabel").html("");
 
-		jQuery("#ModalRevistasLabel").html(titulo);
+		$("#ModalRevistasLabel").html(titulo);
 		
-        flipBook = jQuery("#flipbookContainer").flipBook(pdf, options);
-        jQuery('#ModalRevistas').modal('show');
+        flipBook = $("#flipbookContainer").flipBook(pdf, options);
+        $('#ModalRevistas').modal('show');
 	    } else{
 	    	alert("No se ha cargado el pdf");
 
@@ -172,7 +173,6 @@ div.modal.fade.in {
 	opacity: 1;
 }
 </style>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
@@ -197,6 +197,7 @@ div.modal.fade.in {
 
 <!-- -->
 
+
 <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="es-ES" />
 
@@ -206,14 +207,14 @@ div.modal.fade.in {
 		
 		
 	<!-- IMAGEN -->
-	<div class="cont_banner maringTop">
+	<div class="cont_banner">
 				<div class="pull-left item-image"> <img
-		 src="images/headers/HEADER-tu-minino.jpg" alt="" itemprop="image"/> </div>
+		 src="images/headers/banner-productos.jpg" alt="" itemprop="image"/> </div>
 		<!-- FIN IMAGEN -->
 		<!-- TITULO -->
 		<div class="cont_banner_tt">
 			<h1 itemprop="headline">
-				Tu minino			</h1>
+				Revistas			</h1>
 												<img src="images/curva.svg" alt="" class="img_curva">
 		</div>
 	</div>
@@ -244,7 +245,7 @@ div.modal.fade.in {
 				</li>
 							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
 					<span itemprop="name">
-						Tu minino					</span>
+						Revistas					</span>
 					<meta itemprop="position" content="2">
 				</li>
 				</ul>
@@ -262,367 +263,129 @@ div.modal.fade.in {
 
 
 
-<!-- <script src="https://ajax.googleapis.com/ajax/jquery/3.4.1/jquery.min.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>322</b><br />
-/js/slick.css"/> -->
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>324</b><br />
+/js/libs/slick.css"/> -->
 <!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>323</b><br />
-/js/slick-theme.css"/> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>325</b><br />
+/js/libs/slick-theme.css"/> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 
 
 <!-- <script type="text/javascript" src="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>344</b><br />
-/js/slick.js"></script> -->
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>346</b><br />
+/js/libs/slick.js"></script> -->
 
 <!-- <script type="text/javascript" src="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>346</b><br />
-/js/jquery.fancybox.pack.js?v=2.1.5"></script> -->
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>348</b><br />
+/js/libs/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script> -->
 <!-- <link rel="stylesheet" type="text/css" href="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>347</b><br />
-/js/jquery.fancybox.css?v=2.1.5" media="screen" />
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>349</b><br />
+/js/libs/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 <link rel="stylesheet" type="text/css" href="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>348</b><br />
-/js/helpers/jquery.fancybox-thumbs.css?v=1.0.7" /> -->
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>350</b><br />
+/js/libs/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" /> -->
 <!-- <script type="text/javascript" src="/templates/<br />
-<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\tuMinino.php</b> on line <b>349</b><br />
-/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> -->
+<b>Notice</b>:  Undefined property: ContentViewArticle::$template in <b>C:\xampp\htdocs\templates\protostar\html\com_content\article\revistas.php</b> on line <b>351</b><br />
+/js/libs/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> -->
 
 
 <!-- REVISTAS -->
 
-<div class="tm_cont_revi_all">
+<div class="rv_cont_revi_all">
 
-<div class="tm_revi_tt">
-	<h2 class="revi_tt">Revista</h2>
-	<div class="revi_shot_line"></div>
-	<h2>¡Suscríbete a Nuestra <span>	Revista</span> Digital !</h2>
-	<div class="tm_revi_cont_btn">
-		<img src="images/ico-revistas.svg" alt="">
-		<div class="btn_general tm_revi_btn_sus" onclick="suscribirseAbrir()">suscribir</div>
+<div class="rv_revi_tt">
+	<div class="rv_tt">
+		<h2>¡Suscribete a Nuestra <span>	Revista</span> Digital !</h2>
+		<div class="rv_revi_cont_btn">
+			<img src="images/ico-revistas.svg" alt="">
+			<div class="btn_general tm_revi_btn_sus" onclick="suscribirseAbrir()">suscribir</div>
+		</div>
+	</div>
+	<div class="rv_cont_img_rvista">
+		<img src="images/Imagenes/revista-abierta.png" alt="">
+		<!-- <div class=""><p><? //= $extracto; ?></p></div> -->
 	</div>
 </div>
 
-<div class="tm_revi_cont__all">
-    <div class="testimonial-carousel">
-        <!-- Circled Left 2 icon by Icons8 -->
-        <div class="icon-container">
-            <span class="lnr lnr-arrow-left-circle"></span>
-        </div>
-        <div id="ancho_d" class="cont_all_items">
-            <div class="testimonial-items">
-			<div class="tm_revi_cont_img">
-	
-				<div class="testimonial-item first">
-				<a onclick="abrirpdf('images/revistas/2019/39.pdf','39')" class="cont_revista  39 all">
-					<div class="tm_revi_cont_img">
-						<div class="img_aft_be">
-							<img src="images/revistas/2019/39-edicion.png" class="">
-						</div>
-					</div>
-				</a>
-			</div>
-	
-				<div class="testimonial-item first">
-				<a onclick="abrirpdf('images/revistas/2019/40.pdf','40')" class="cont_revista  40 all">
-					<div class="tm_revi_cont_img">
-						<div class="img_aft_be">
-							<img src="images/revistas/2019/40-edicion.png" class="">
-						</div>
-					</div>
-				</a>
-			</div>
-	
-				<div class="testimonial-item first">
-				<a onclick="abrirpdf('images/revistas/2019/41.pdf','41')" class="cont_revista  41 all">
-					<div class="tm_revi_cont_img">
-						<div class="img_aft_be">
-							<img src="images/revistas/2019/41-edicion.png" class="">
-						</div>
-					</div>
-				</a>
-			</div>
-	
-				<div class="testimonial-item first">
-				<a onclick="abrirpdf('images/revistas/2015/2.pdf','2')" class="cont_revista  2 all">
-					<div class="tm_revi_cont_img">
-						<div class="img_aft_be">
-							<img src="images/revistas/2015/2-edicion.png" class="">
-						</div>
-					</div>
-				</a>
-			</div>
+<dl class="fields-container">
+	<dd class="field-entry ">	<span class="field-label ">Ingredientes: </span>
+<span class="field-value"><div class="filterproducts filter_revi">
+<ul id="padre">
+<li data-view="2015">2015</li>
+<li data-view="2016">2016</li>
+<li data-view="2017">2017</li>
+<li data-view="2018">2018</li>
+<li data-view="2019">2019</li>
+</ul>
+</div></span>
+</dd></dl>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<div id="cont_as" class="rv_revi_cont__all">
 	
 		
+		<a onclick="abrirpdf('images/revistas/2019/39.pdf','39')" class="cont_revista  2019 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2019/39-edicion.png" class="">
+				</div>
 			</div>
-                
-        </div>
-        </div>
-        <!-- End .testimonial-items -->
-        <div class="icon-container">
-            <span class="lnr lnr-arrow-right-circle"></span>
-        </div>
-    </div>
-	<div class="cont_archi_ant">
-		<div class="line_archi_ant"></div>
-		<a href="revistas.html" class="btn_general tm_revi_btnea">Ediciones anteriores</a>
-	</div>
+		</a>
+
+		
+		<a onclick="abrirpdf('images/revistas/2019/40.pdf','40')" class="cont_revista  2019 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2019/40-edicion.png" class="">
+				</div>
+			</div>
+		</a>
+
+		
+		<a onclick="abrirpdf('images/revistas/2019/41.pdf','41')" class="cont_revista  2019 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2019/41-edicion.png" class="">
+				</div>
+			</div>
+		</a>
+
+		
+		<a onclick="abrirpdf('images/revistas/2015/2.pdf','2')" class="cont_revista  2015 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2015/2-edicion.png" class="">
+				</div>
+			</div>
+		</a>
+
+		
+		<a onclick="abrirpdf('images/revistas/2015/3.pdf','3')" class="cont_revista  2015 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2015/3-edicionpng.png" class="">
+				</div>
+			</div>
+		</a>
+
+		
+		<a onclick="abrirpdf('images/revistas/2015/4.pdf','4')" class="cont_revista  2015 all">
+			<div class="tm_revi_cont_img">
+				<div class="img_aft_be">
+					<img src="images/revistas/2015/4-edicionpng.png" class="">
+				</div>
+			</div>
+		</a>
+
+	
 </div>
 </div>
 <!-- FIN REVISTAS -->
-
-<!-- JUEGOS -->
-<div class="tm_game_tt" style="display: none;">
-	<p>PROMOCIONES</p>
 </div>
 
-<div class="tm_cont_game" style="display: none;">
-<div id="slider" class="slider">
-	  <div class="wrapper">
-	    <div id="slides" class="slides">
-	
-	<div class="slide">
-	<div class="game_entra">
-
-		<div class="tm_game_cont_img">
-			<a href="/tu-minino/2-uncategorised/66-promocion-1">
-				<img src="images/Imagenes/img-juegos-prueba.png" class="">
-			</a>
-		</div>
-		<div class="tm_game_entr_tt">
-			<a href="/tu-minino/2-uncategorised/66-promocion-1">
-				<h2>Promoción 1</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non enim consequatur, totam facere, eveniet natus nostrum hic eum rem veniam nam ad necessitatibus? Praesentium consectetur harum natus, repudiandae deleniti illum accusamus perferendis.</p>
-		</div>
-	</div>
-	</div>
-		  
-	
-	<div class="slide">
-	<div class="game_entra">
-
-		<div class="tm_game_cont_img">
-			<a href="/tu-minino/2-uncategorised/67-promocion-2">
-				<img src="images/Imagenes/img-juegos-prueba.png" class="">
-			</a>
-		</div>
-		<div class="tm_game_entr_tt">
-			<a href="/tu-minino/2-uncategorised/67-promocion-2">
-				<h2>Promoción 2</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non enim consequatur, totam facere, eveniet natus nostrum hic eum rem veniam nam ad necessitatibus? Praesentium consectetur harum natus, repudiandae deleniti illum accusamus perferendis.</p>
-		</div>
-	</div>
-	</div>
-		  
-		    </div>
-	  </div>
-	  <a id="prev" class="control prev"></a>
-	  <a id="next" class="control next"></a>
-	</div>
-</div>
-
-<!-- FIN JUEGOS -->
-
-<!-- EVENTOS -->
-
-<div class="tm_cont_event">
-<div class="tm_event_tt">
-	<h2>Eventos</h2>
-</div>
-	
-		<div class="tm_event_cont">
-
-		<div class="tm_event_cont_img">
-			<a href="catlendario.html">
-				<img src="images/Imagenes/catlendario-img-principal2.jpg" class="">
-			</a>
-		</div>
-		<div class="tm_event_entr_tt">
-			<a href="catlendario.html">
-				<h2>Catlendario</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>La espera llegó a su fin Participa y todo México conocerá a tu minino</p>
-			<a href="catlendario.html" class="btn_general2 tm_event_btn2_vermas">ver más</a>
-		</div>
-	</div>
-	
-		<a href="eventos.html" class="btn_general tm_event_btn_vermas">ver más</a>
-</div>
-<!-- FIN EVENTOS -->
-
-<!-- BLOG -->
-<div class="tm_blg_tt">
-	<h2>Blog</h2>
-	<div class="tm_clg_cont_subtt">
-		<p>Ultimas Entradas</p>
-		<div class="line_lado"></div>
-	</div>
-</div>
-
-<div class="tm_cont_blog">
-	
-		<div class=" blg_entra1">
-
-		<div class="tm_blg_cont_img">
-			<a href="los-mininos-y-el-otono.html">
-				<img src="images/blog/los-minino-y-el-otoo.jpg" class="">
-			</a>
-		</div>
-		<div class="btn_general2 tm_blg_btn_mas">+</div>
-		<div class="tm_blg_entr_tt">
-			<a href="los-mininos-y-el-otono.html">
-				<h2>Los mininos y el otoño</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>Cuidamos a nuestros mininos todo el año, eso es indudable, pero durante el otoño estos pequeños necesitan atención especial ya que es la temporada ...</p>
-		</div>
-	</div>
-	
-		<div class=" blg_entra2">
-
-		<div class="tm_blg_cont_img">
-			<a href="como-ayudar-a-un-minino-feral.html">
-				<img src="images/blog/Cmo-ayudar-a-un-minino-feral.jpg" class="">
-			</a>
-		</div>
-		<div class="btn_general2 tm_blg_btn_mas">+</div>
-		<div class="tm_blg_entr_tt">
-			<a href="como-ayudar-a-un-minino-feral.html">
-				<h2>¿Cómo ayudar a un minino feral?</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>Aunque vayamos por la vida queriendo adoptar a todos los michis que se cruzan en nuestro camino</p>
-		</div>
-	</div>
-	
-		<div class=" blg_entra3">
-
-		<div class="tm_blg_cont_img">
-			<a href="mininos-bebes-claves-para-una-buena-alimentacion.html">
-				<img src="images/blog/Claves-para-una-buena-alimentacin.jpg" class="">
-			</a>
-		</div>
-		<div class="btn_general2 tm_blg_btn_mas">+</div>
-		<div class="tm_blg_entr_tt">
-			<a href="mininos-bebes-claves-para-una-buena-alimentacion.html">
-				<h2>Mininos bebés: Claves para una buena alimentación</h2>
-			</a>
-			<div class="shot_line"></div>
-			<p>La primera pregunta al adoptar a un minino bebé siempre es: ¿Qué comerán? </p>
-		</div>
-	</div>
-	
-		<a href="blog.html" class="btn_general tm_blg_btn_vermas">ver más</a>
-</div>
-<!-- FIN BLOG -->
-
-<!-- GALERIA -->
-<div class="tm_game_tt">
-	<p>GALERIA DE EVENTOS</p>
-</div>
-<div class="tm_game_tt mg-galeria">
-		<script type="text/javascript">// <![CDATA[
-		// var $jq = jQuery.noConflict();
-			$(document).ready(function(){
-
-			      	$('.imgsliderfancy').slick({
-						slidesToShow: 4,
-						slidesToScroll: 1,
-						dots: false,
-					  	arrows: true,
-					  	autoplay: true,
-					  	autoplaySpeed: 5000,
-					  	// infinite: false,
-					  	responsive: [
-				          {
-				            breakpoint: 768,
-				            settings: {
-				              slidesToShow: 3
-				            }
-				          },
-				          {
-				            breakpoint: 480,
-				            settings: {
-				              slidesToShow: 2
-				            }
-				          }
-				        ]
-					});
-			    });
-			    $(function(){
-					$('.fancybox-thumbs').fancybox({
-						openEffect : 'elastic',
-						closeEffect	: 'elastic',
-				    	openSpeed:'normal', //ms, slow, normal, fast (default 250ms)
-				    	closeSpeed:'normal',
-						helpers : {
-							thumbs : {
-								width  : 50,
-								height : 50
-							},
-							overlay : {
-				    			closeClick : false  // if true, se cierra al hacer click fuera de la imagen
-		       			    }
-						}
-					});
-				});
-				function descargarimg(fileUrl){
-					document.location = fileUrl;
-				}
-			// ]]>
-		</script>
-		<style type="text/css">
-			.slick-initialized .slick-slide{
-				position: relative;
-			}
-			.fancybox-thumbs:hover .hoverproy {
-			    width: 100%;
-			    height: 100%;
-			    position: absolute;
-			    top: 0;
-			    background-color: rgba(0, 0, 0, 0.5);
-			}
-			.slick-track{
-				width: 100%;
-			}
-			.slick-slide{
-				margin: 5px;
-			}
-			.slick-prev:before, .slick-next:before{
-				color: #000!important;
-			}
-			.slick-slide img {
-			    width: 100%;
-			}
-			#fancybox-thumbs>ul>li{
-			    display: none;
-			  }
-			  .slick-cloned {
-			    /*display: none!important;*/
-			}
-		</style>
-		      <div class="">
-			<div class="imgsliderfancy" id="imgsliderfancy">
-								            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/1.jpg"><img src="images/imagenesGaleria/1.jpg" alt=""/><div class="hoverproy"></div></a>
-				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/2.jpg"><img src="images/imagenesGaleria/2.jpg" alt=""/><div class="hoverproy"></div></a>
-				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/3.jpg"><img src="images/imagenesGaleria/3.jpg" alt=""/><div class="hoverproy"></div></a>
-				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/4.jpg"><img src="images/imagenesGaleria/4.jpg" alt=""/><div class="hoverproy"></div></a>
-				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/5.jpg"><img src="images/imagenesGaleria/5.jpg" alt=""/><div class="hoverproy"></div></a>
-				            				            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/imagenesGaleria/6.jpg"><img src="images/imagenesGaleria/6.jpg" alt=""/><div class="hoverproy"></div></a>
-				            			</div>
-			</div>
-</div>
-
-<!-- FIN GALERIA -->
-
-</div>
 
 <div id="suscribir_r" class="sus_cont_all">
 	<div class="sus_bg_modal" onclick="suscribirseCerar()">
@@ -733,7 +496,39 @@ div.modal.fade.in {
 	</div>
 </div>
 
-<script>
+<script type="text/javascript">
+
+	var lastDate = document.getElementById('padre').getElementsByTagName('li')[0].getAttribute("data-view");
+	var lastoss = document.getElementById('padre').getElementsByTagName('li');
+    var all = document.getElementsByClassName('all');
+    
+    for (var numLi = 0; numLi < lastoss.length; numLi++) {};
+    
+    var numLi = numLi-1;
+    var lastLi = document.getElementById('padre').getElementsByTagName('li')[numLi].getAttribute("data-view");
+
+    // var numFin = lastLi;
+    // var fechasAll = document.getElementsByClassName('filterproducts');
+    var clasAs = document.getElementsByClassName(lastLi);
+
+	for (var i = 0; i < all.length; i++) {
+        all[i].style.display = "none";
+    };
+
+	for (var i = 0; i < clasAs.length; i++) {
+        clasAs[i].style.display = "block";
+    };
+
+ 	jQuery(document).ready(function() {
+
+   	  jQuery( ".filterproducts ul li" ).click(function(a) {
+   	    jQuery(".all").hide();
+	    jQuery("."+jQuery(this).attr("data-view")).show();
+	  });
+
+	});
+
+	// modal
 	var suscribirR = document.getElementById('suscribir_r');
 	var bodyhidden = document.getElementsByTagName("body")[0];
 	function suscribirseAbrir(){
@@ -744,6 +539,36 @@ div.modal.fade.in {
 		suscribirR.style.display='none';
 		bodyhidden.style.overflow='visible';
 	}
+
+	//miga
+	var newItem = document.createElement("li");
+	var newItem2 = document.createElement("a");
+	
+    var atri = document.createAttribute("href");
+    atri.value = 'http://35.235.68.174/tu-minino';
+	newItem2.setAttributeNode(atri);
+	
+    var newItem3 = document.createElement("span");
+    var atri2 = document.createAttribute("class");
+    atri2.value = 'divider';
+	newItem3.setAttributeNode(atri2);
+	
+    var newItem4 = document.createElement("img");
+    var atri3 = document.createAttribute("src");
+    atri3.value = 'images/arrow.png';
+	newItem4.setAttributeNode(atri3);
+
+    var newItem5 = document.createElement("span");
+	
+    var textnode = document.createTextNode("Tu minino");
+    newItem.appendChild(newItem2);
+    newItem.appendChild(newItem3);
+    newItem3.appendChild(newItem4);
+    newItem2.appendChild(newItem5);
+    newItem5.appendChild(textnode);
+  
+    var list = document.getElementsByClassName("breadcrumb")[0];
+    list.insertBefore(newItem, list.childNodes[4]);
 </script>
 					<!-- forulario en pagina contacto -->
 					<div class="form-conctact-pag">
@@ -788,7 +613,7 @@ div.modal.fade.in {
 				</li>
 							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
 					<span itemprop="name">
-						Tu minino					</span>
+						Revistas					</span>
 					<meta itemprop="position" content="2">
 				</li>
 				</ul>
@@ -807,13 +632,5 @@ div.modal.fade.in {
 	
 	<script src="assets/js/scrips-minino.js"></script>
 	<script src="assets/js/funcionesjames.js"></script>
-  <script type="text/javascript">
-  jQuery(document).ready(function(){
-    setTimeout(function(){
-      jQuery('#linktuminino').addClass('current active');
-    }, 1000);
-  });
-
-  </script>
 </body>
 </html>
