@@ -70,6 +70,29 @@ jQuery(window).on('load',  function() {
 		
 	</header>
 	<script src="assets/js/funcionesjames.js"></script>
+	<script type="text/javascript">
+    jQuery(window).on('load',function(){
+        jQuery('#modalBannerAll').modal('show');
+    });
+</script>
+
+<div id="modalBannerAll" class="modal negro fade" role="dialog">
+  <div class="modal-dialog">
+
+    
+    <div class="modal-content gris">
+      
+      <div class="modal-body">
+<button type="button" class="btn_general cntc_btn cerrarmodalall" data-dismiss="modal">&times;</button>
+        <!-- <a target="_blank" href="https://minino.com.mx/catlendario"> -->
+        <img src="images/Pop-Up.png" alt="Minino Banner" style="width:100%">
+        <!-- </a> -->
+      </div>
+      
+    </div>
+
+  </div>
+</div>
 
 	<!-- Body -->
 	<div class="body" id="top">
@@ -77,6 +100,12 @@ jQuery(window).on('load',  function() {
 					<div class="moduletable">
 						<div class=" slideshow-wrapper orbit-container slideconcurva">
     <ul class="" data-orbit> 
+
+    	<!-- <li >
+        	<img class="hidebannermobile" src="images/banners/Banner_Web_2.png"/> 
+        	<img class="hidebannerdesktop imgsolomobile" src="images/recetas.jpg"/>     
+          	<img src="images/curva.svg" alt="" class="img_curva">
+         </li> -->
             
         <li>
         <img src="images/banners/banner-principal-1920-minino-normal.jpg"/><div class="orbit-caption">            <span>No es comida para gatos, es </span><span class="color-negro">alimento para mininos</span>            <div class="vermasslide"> <a href="minino.html" target="_self" class="btn_general tm_revi_btn_sus">VER MÁS</a></div>            
@@ -328,6 +357,9 @@ jQuery(document).foundation({
 </div>	
 					</div>					
 				</div>
+			</div>
+			<div class="imageanuncio">
+				<img src="images/Banner_Web_4.png">
 			</div>
 			<h2 class="center titpremios">PREMIOS</h2>
 			<div class="row-fluid wrap rowpremioshome">

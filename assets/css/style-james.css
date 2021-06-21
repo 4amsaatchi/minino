@@ -507,10 +507,53 @@ img.imgguia {
     align-items: center;
     width: 100%;
 }
+
+div#modalBannerAll {
+    opacity: 1;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    overflow: inherit;
+}
+#modalBannerAll .modal-content {
+    background: transparent;
+    margin-top: 86px;
+}
+.cerrarmodalall {
+    font-size: 30px;
+    width: 38px!important;
+    height: 38px;
+    margin-right: -36px;
+    margin-bottom: 8px;
+    margin-top: 14px;
+    position: absolute;
+    right: 0;
+    top: -35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.cerrarmodalall:focus {
+    outline: none;
+}
+.imgsolomobile {
+    object-fit: cover;
+    transform: none!important;
+    width: 100%!important;
+    height: 100%;
+}
+.imageanuncio {
+    margin-bottom: 35px;
+}
     
 @media(min-width: 768px) {
     .menufooter {
         margin-top: -36px;
+    }
+    #modalBannerAll .modal-dialog {
+        max-width: 80%;
     }
 }
 @media(max-width: 767px) {
@@ -522,6 +565,12 @@ img.imgguia {
     .contentbeneficios3 .descrip_bf {
         max-width: 271px;
         left: 32%;
+    }
+    .hidebannermobile {
+        display: block!important;
+    }
+    .hidebannerdesktop {
+        display: none!important;
     }
 }
 @media(max-width: 600px) {
@@ -535,4 +584,14 @@ img.imgguia {
     .img_benefic_prod {
         display: none;
     }
+    .cerrarmodalall {
+        position: inherit;
+    }
+    .hidebannermobile {
+        display: none!important;
+    }
+    .hidebannerdesktop {
+        display: block!important;
+    }
+
 }
