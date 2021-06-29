@@ -11,8 +11,8 @@
 'use strict';
 
 var DFLIP = DFLIP || {};
-var x = "http://"+location.hostname;
-var hostnamef = x+"/minino/assets/";
+var x = "https://"+location.hostname;
+var hostnamef = x+"/assets/";
 
 
 // old fallback
