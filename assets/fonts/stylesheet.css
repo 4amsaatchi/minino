@@ -16,3 +16,14 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'Montserrat-Black';
+        src: url('Montserrat-Black.otf') format('otf'),
+        url('Montserrat-Black.ttf') format('ttf'),
+        url('Montserrat-Black.woff2') format('woff2'),
+        url('Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

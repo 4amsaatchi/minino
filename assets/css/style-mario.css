@@ -414,7 +414,7 @@ div.body {
 }
 
 .filterproducts ul li {
-    padding: 7px 15px;
+    padding: 7px 7px;
     position: relative;
     list-style: none;
     cursor: pointer;
@@ -2184,6 +2184,11 @@ button.close span {
     font-family: 'dk_uncle_edwardregular';
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
+.hm_cont_recetas_carr .titlepremioshome a h2 {
+    font-family: 'Montserrat-Black';
+    font-size: 30px;
+}
+
 
 .containerrecetashome {
     background: transparent !important;
@@ -2587,7 +2592,7 @@ p.auth.color-blanco {
 }
 
 .desproduct p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dy_pd_line {
@@ -2604,7 +2609,7 @@ p.auth.color-blanco {
 }
 
 .dy_pd_present_contall h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 3.3px;
     text-align: center;

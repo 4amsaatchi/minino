@@ -496,8 +496,14 @@ jQuery( document ).ready(function() {
     jQuery('.imgbenef').click(function(event){
      event.stopPropagation();
     });
-    jQuery(".imgbenef").click(function () { 
-      jQuery('.descrip_bf').hide();
-      jQuery(this).children(".descrip_bf").show();   
+    // jQuery(".imgbenef").click(function () { 
+    //   jQuery('.descrip_bf').hide();
+    //   jQuery(this).children(".descrip_bf").show();   
+    // });
+    jQuery(".imgbenef").on( "click", function() { 
+        jQuery(".descrip_bf").addClass('hide');
+        jQuery(this).children(".descrip_bf").removeClass('hide');
+        jQuery('.hide').hide();
+        jQuery(this).children(".descrip_bf").toggle();
     });
 });
