@@ -3714,7 +3714,7 @@ form#member-registration h3 span.c_n{
     width: 30%;
 }
 
-label, form.formcontacto div label span{
+label, .formcontacto div label span{
     margin: 0;
     font-size: 14px;
     color: #5a6268;
@@ -3727,7 +3727,7 @@ legend.regi_tt_leg {
     margin: 0;
 }
 
-form#member-registration input, form#member-registration select, form.formcontacto input, form.formcontacto textarea, form.formcontacto select, form#member-profile input, form#member-profile a.chzn-single {
+form#member-registration input, form#member-registration select, .formcontacto input, .formcontacto textarea, .formcontacto select, form#member-profile input, form#member-profile a.chzn-single {
     width: 100%;
     height: 29px;
     background: transparent;
@@ -3853,16 +3853,16 @@ div.chzn-container {
     display: flex;
 }
 
-form.formcontacto {
-    width: 45%;
+.formcontacto {
+    width: 80%;
     margin-top: 25px;
 }
 
-form.formcontacto div {
+.formcontacto div {
     width: 100%;
 }
 
-form.formcontacto div label {
+.formcontacto div label {
     margin-bottom: 4px;
     width: 100%;
 }
@@ -3872,7 +3872,7 @@ form.formcontacto div label {
     justify-content: space-between;
 }
 
-form.formcontacto div.cntc_flex div {
+.formcontacto div.cntc_flex div {
     width: 48%;
 }
 
@@ -3899,17 +3899,17 @@ form.formcontacto div.cntc_flex div {
     height: auto;
 }
 
-form.formcontacto div label span{
+.formcontacto div label span{
     width: 100%;
 }
 
-form.formcontacto textarea{
+.formcontacto textarea{
     height: 75px;
     max-height: 75px;
     min-height: 75px;
 }
 
-form.formcontacto select{
+.formcontacto select{
     margin-bottom: 9px;
 }
 
@@ -3921,6 +3921,7 @@ form.formcontacto select{
 
 .cntc_fonrm_img img{
    /*width: 65%;*/
+   object-fit: contain;
 }
 
 form.form2_ {
@@ -4751,7 +4752,7 @@ ul.breadcrumb li a span:hover {
         display: block;
     }
 
-    form.formcontacto {
+    .formcontacto {
         width: 80%;
         margin: 0 auto;
         margin-top: 25px;
@@ -5139,11 +5140,11 @@ ul.breadcrumb li a span:hover {
         display: block;
     }
 
-    form.formcontacto {
+    .formcontacto {
         width: 100%;
     }
 
-    form.formcontacto div.cntc_flex div {
+    .formcontacto div.cntc_flex div {
         width: 100%;
     }
 

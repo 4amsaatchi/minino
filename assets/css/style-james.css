@@ -547,6 +547,29 @@ div#modalBannerAll {
 .imageanuncio {
     margin-bottom: 35px;
 }
+
+.sus_sont_form_all:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background: #fff;
+}
+
+.formcontacto:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background: #fafafa;
+}
+.activetabrevista {
+    background: #FF930E;
+    color: #ffffff!important;
+    border-color: #FF930E!important;
+}
     
 @media(min-width: 768px) {
     .menufooter {
