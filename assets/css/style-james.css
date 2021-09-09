@@ -570,6 +570,15 @@ div#modalBannerAll {
     color: #ffffff!important;
     border-color: #FF930E!important;
 }
+.concatlendario h3 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 28px;
+}
+.concatlendario p {
+    margin: 11px;
+    text-align: justify;
+}
     
 @media(min-width: 768px) {
     .menufooter {
