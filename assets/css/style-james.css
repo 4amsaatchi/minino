@@ -584,14 +584,51 @@ div#modalBannerAll {
 }
 
 .redirectcatlendario {
-    height: 12%;
+    height: 12.1%;
     width: 23%;
     position: absolute;
-    right: 0;
-    bottom: 15%;
+    right: 38.6%;
+    bottom: 25.5%;
+    border-radius: 8px;
 }
 .redirectcatlendario:hover {
     background: rgba(0,0,0,0.4);
+}
+.listcatlendario {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.listcatlendario li a {
+    padding: 11px 16px;
+    margin-bottom: 34px;
+    min-width: 133px;
+    text-align: center;
+}
+.listcatlendario li.ui-tabs-active a, .activecatlendario {
+    color: #fff;
+    border: 1px solid #FF930E;
+    background: #FF930E;
+    text-decoration: none;
+}
+.mostrarcalent {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.mobilecatlen img {
+    max-width: 275px;
+}
+.mobilecatlen {
+    text-align: center;
+}
+.btndownload {
+    padding: 35px 0px;
+}
+.activecatlendario:focus {
+    color: #fff;
+    text-decoration: none;
 }
 
 @media(min-width: 768px) {
