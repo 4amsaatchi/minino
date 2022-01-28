@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.473" height="53.471" viewBox="0 0 53.473 53.471">
+  <g id="proteina" transform="translate(0.496 0.496)">
+    <path id="Elipse_11_4_" d="M24.978,0A24.978,24.978,0,1,1,0,24.978,24.978,24.978,0,0,1,24.978,0Z" transform="translate(3.02 3.019)" fill="#10685b"/>
+    <g id="Capa_2_5_" transform="translate(10.655 10.653)">
+      <rect id="Rectángulo_1088_4_" width="26.726" height="26.724" fill="none"/>
+    </g>
+    <path id="Trazado_49" data-name="Trazado 49" d="M24.692.827A24.251,24.251,0,1,0,48.943,25.079,24.251,24.251,0,0,0,24.692.827Z" transform="translate(-0.44 -0.827)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.992"/>
+    <ellipse id="Elipse_4" data-name="Elipse 4" cx="3.798" cy="3.798" rx="3.798" ry="3.798" transform="translate(21.844 20.84)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse id="Elipse_5" data-name="Elipse 5" cx="2.354" cy="2.354" rx="2.354" ry="2.354" transform="translate(25.77 13.507)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse id="Elipse_6" data-name="Elipse 6" cx="2.557" cy="2.557" rx="2.557" ry="2.557" transform="translate(28.617 29.882)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse id="Elipse_7" data-name="Elipse 7" cx="2.557" cy="2.557" rx="2.557" ry="2.557" transform="translate(14.306 25.833)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_6" data-name="Línea 6" x1="1.559" y1="2.79" transform="translate(28.308 27.458)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_7" data-name="Línea 7" x1="2.784" y2="1.557" transform="translate(19.316 25.995)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_8" data-name="Línea 8" y1="2.856" x2="0.809" transform="translate(26.675 18.127)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
